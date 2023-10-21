@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        headingText: "#FF0C0A",
+        headingText: "#ffffff",
         smallText: "#A0D468",
         newDarkAccent: "#8CC152",
         pinterestColor: "#BD081C",

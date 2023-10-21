@@ -2,11 +2,11 @@ import React from "react";
 import CountUp from "react-countup";
 
 
+
 const Hero = () => {
 
     return(
-        <section id="hero"
-            className="pt-0">
+        <section id="hero" className="pt-0">
             <div className="container pt-14" id="home">
                 <div className="flex flex-col lg:flex-row
                 items-center justify-between
@@ -35,7 +35,7 @@ const Hero = () => {
                                        font-[400] text-[16px]
                                        leading-7
                                        lg:pr-10
-                                       text-gray-700"
+                                       text-smallText"
                         >
                             Experience the extraordinary potential of fiber-optic internet with us.
                             Unleash the power of seamless Uncapped connectivity.
@@ -142,7 +142,6 @@ const Hero = () => {
 
                 {/*-------------Count UP SECTION RIGHT SIDE-------------*/}
             </div>
-
         </section>
     )
 }
