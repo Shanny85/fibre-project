@@ -48,7 +48,7 @@ const Hero = () => {
                                 <button
                                     className="bg-hOneColor text-newDarkAccent
                                     font-[600] flex items-center gap-2
-                                    hover:bg-newDarkAccent hover:text-hOneColor
+                                    hover:bg-newDarkAccent hover:text-headingText
                                     ease-in duration-300 py-2 px-4 rounded-[8px] mb-5">
                                     Check my coverage
                                 </button>
@@ -61,31 +61,31 @@ const Hero = () => {
                             <li data-aos="fade-left"
                                 data-aos-duration="1500"
                                 className="flex items-center">
-                                <i className="ri-checkbox-circle-line text-3xl text-hOneColor pr-1 drop-shadow"></i>
+                                <i className="ri-checkbox-circle-line text-3xl text-headingText pr-1 drop-shadow"></i>
                                 No Long-Term Contracts.
                             </li>
                             <li data-aos="fade-left"
                                 data-aos-duration="1500"
                                 className="flex items-center">
-                                <i className="ri-checkbox-circle-line text-3xl pr-1 text-hOneColor drop-shadow"></i>
+                                <i className="ri-checkbox-circle-line text-3xl pr-1 text-headingText drop-shadow"></i>
                                 Effortless Payments.
                             </li>
                             <li data-aos="fade-left"
                                 data-aos-duration="1500"
                                 className="flex items-center">
-                                <i className="ri-checkbox-circle-line text-3xl pr-1 text-hOneColor drop-shadow"></i>
+                                <i className="ri-checkbox-circle-line text-3xl pr-1 text-headingText drop-shadow"></i>
                                 Month-to-Month Freedom.
                             </li>
                             <li data-aos="fade-left"
                                 data-aos-duration="1500"
                                 className="flex items-center">
-                                <i className="ri-checkbox-circle-line text-3xl pr-1 text-hOneColor drop-shadow"></i>
+                                <i className="ri-checkbox-circle-line text-3xl pr-1 text-headingText drop-shadow"></i>
                                 Zero Paperwork Hassles.
                             </li>
                             <li data-aos="fade-left"
                                 data-aos-duration="1500"
                                 className="flex items-center">
-                                <i className="ri-checkbox-circle-line text-3xl pr-1 text-hOneColor drop-shadow"></i>
+                                <i className="ri-checkbox-circle-line text-3xl pr-1 text-headingText drop-shadow"></i>
                                 No Credit Checks Required.
                             </li>
                         </ul>
@@ -102,7 +102,7 @@ const Hero = () => {
                         <h2 className="text-hOneColor font-[700] text-[32px] drop-shadow">
                             <CountUp start={0} end={1000} suffix=' +' />
                         </h2>
-                        <h4 className="text-newDarkAccent font-[500] text-[18px] drop-shadow">
+                        <h4 className="text-smallText font-[700] text-[18px] drop-shadow">
                             Satisfied Clients
                         </h4>
                     </div>
@@ -110,7 +110,7 @@ const Hero = () => {
                         <h2 className="text-hOneColor font-[700] text-[32px] drop-shadow">
                             <CountUp start={0} end={9} suffix='' />
                         </h2>
-                        <h4 className="text-newDarkAccent font-[500] text-[18px] drop-shadow">
+                        <h4 className="text-smallText font-[700] text-[18px] drop-shadow">
                             Service Providers
                         </h4>
                     </div>
@@ -118,7 +118,7 @@ const Hero = () => {
                         <h2 className="text-hOneColor font-[700] text-[32px] drop-shadow">
                             <CountUp start={0} end={100} suffix=' %' />
                         </h2>
-                        <h4 className="text-newDarkAccent font-[500] text-[18px] drop-shadow">
+                        <h4 className="text-smallText font-[700] text-[18px] drop-shadow">
                             Uncapped
                         </h4>
                     </div>
@@ -126,15 +126,15 @@ const Hero = () => {
                         <h2 className="text-hOneColor font-[700] text-[32px] drop-shadow">
                             <CountUp start={0} end={100} suffix=' %' />
                         </h2>
-                        <h4 className="text-newDarkAccent font-[500] text-[18px] drop-shadow">
+                        <h4 className="text-smallText font-[700] text-[18px] drop-shadow">
                             Network Stability
                         </h4>
                     </div>
                     <div data-aos="fade-left" data-aos-durations="1500" data-aos-delay="300" className="mb-10">
                         <h2 className="text-hOneColor font-[700] text-[32px] drop-shadow">
-                            <CountUp start={0} end={100} suffix=' +' />
+                            <CountUp start={0} end={100} suffix=' %' />
                         </h2>
-                        <h4 className="text-newDarkAccent font-[500] text-[18px] drop-shadow">
+                        <h4 className="text-smallText font-[700] text-[18px] drop-shadow">
                             Month to month
                         </h4>
                     </div>

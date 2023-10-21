@@ -65,10 +65,10 @@ const Header = () => {
                             <li>
                                 <a onClick={handleClick}
                                    className="flex items-center gap-2
-                                   text-newDarkAccent font-[600]
+                                   text-smallText font-[600]
                                    py-2 px-4 rounded-[8px] max-h-[40px]
                                    hover:bg-hOneColor
-                                   hover:text-newDarkAccent hover:border-newNeonAccent
+                                   hover:text-headingText
                                    hover:font-[600] ease-in duration-300 drop-shadow"
                                    href="#home">
                                     Home
@@ -77,10 +77,10 @@ const Header = () => {
                             <li>
                                 <a onClick={handleClick}
                                    className="flex items-center gap-2
-                                   text-newDarkAccent font-[600]
+                                   text-smallText font-[600]
                                    py-2 px-4 rounded-[8px] max-h-[40px]
                                    hover:bg-hOneColor
-                                   hover:text-newDarkAccent hover:border-newNeonAccent
+                                   hover:text-headingText
                                    hover:font-[600] ease-in duration-300 drop-shadow"
                                    href="#about">
                                     About
@@ -89,10 +89,10 @@ const Header = () => {
                             <li>
                                 <a onClick={handleClick}
                                    className="flex items-center gap-2
-                                   text-newDarkAccent font-[600]
+                                   text-smallText font-[600]
                                    py-2 px-4 rounded-[8px] max-h-[40px]
                                    hover:bg-hOneColor
-                                   hover:text-newDarkAccent hover:border-newNeonAccent
+                                   hover:text-headingText
                                    hover:font-[600] ease-in duration-300 drop-shadow"
                                    href="#contact">
                                     Contact
@@ -112,7 +112,7 @@ const Header = () => {
                                 py-1 px-3 max-h-[30px]
                                 bg-hOneColor
                                 hover:bg-newDarkAccent
-                                hover:text-hOneColor
+                                hover:text-headingText
                                 hover:font-[600] ease-in duration-300
                                 drop-shadow sm:p-1">
 
