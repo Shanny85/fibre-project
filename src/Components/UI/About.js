@@ -6,10 +6,12 @@ const About = () => {
         <section
             className="pt-0" id="about">
             <div className="container pt-8" id="about">
-                <div className="items-center justify-between
-               sm:flex-col md:flex md:flex-row">
+                <div className="flex flex-col lg:flex-row
+                items-center justify-between
+                px-4 lg:px-0
+                grow relative">
                     {/*-------------ABOUT CONTENT LEFT SIDE-------------*/}
-                    <div className="w-full md:basis-1/2">
+                    <div className="w-full h-screen md:basis-1/2">
                         <h2 data-aos="fade-up" data-aos-duration="1500"
                             className="mt-5 text-hOneColor font-[800]
                             text-[1.8rem] leading-[35px]

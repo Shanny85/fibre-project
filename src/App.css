@@ -55,12 +55,11 @@ section {
   left: 0;
   background: #ee4f91;
   z-index: 99;
-  text-shadow: 1px 2px 3px #000000;
 }
 
-.sticky-head-section button {
-  box-shadow: 1px 2px 3px #000000;
-}
+/*.sticky-head-section button {*/
+/*  box-shadow: 1px 2px 3px #000000;*/
+/*}*/
 
 
 @media only screen and (max-width: 768px) {
@@ -92,9 +91,9 @@ section {
   }
 }
 
-#register h2 {
-  text-shadow: 1px 2px 3px #000000;
-}
+/*#register h2 {*/
+/*  text-shadow: 1px 2px 3px #000000;*/
+/*}*/
 
 /*#login h2 {*/
 /*  text-shadow: 1px 2px 3px #000000;*/

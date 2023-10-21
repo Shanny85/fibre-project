@@ -61,7 +61,7 @@ const Header = () => {
                     {/*-------------LOGO END-------------*/}
                     {/*-------------MENU START-------------*/}
                     <div className="menu" ref={menuRef} onClick={menuSwitch}>
-                        <ul className="flex items-center gap-2 text-headingColor">
+                        <ul className="flex items-center gap-2 text-headingText">
                             <li>
                                 <a onClick={handleClick}
                                    className="flex items-center gap-2
@@ -121,9 +121,13 @@ const Header = () => {
                         </a>
                         <span onClick={menuSwitch}
                               className="cursor-pointer text-2xl
-                              {/*py-1 px-1 rounded-[8px] max-h-[45px] max-w-[45px]*/}
-                              {/*hover:bg-hOneColor*/}
-                              text-newDarkAccent md:hidden">
+                              flex items-center
+                              sm:py-2 sm:px-2 rounded-[8px] sm:max-h-[40px]
+                              py-1 px-3 max-h-[30px]
+                              hover:bg-hOneColor
+                              hover:text-newDarkAccent
+                              hover:drop-shadow
+                              text-headingText md:hidden">
                             <i className="ri-menu-line "></i>
                         </span>
                     </div>

@@ -8,8 +8,11 @@ const Contact = () => {
                     className="text-hOneColor flex items-center justify-center text-[2.5rem] font-[700] mt-30 mb-8">
                     Reach Out
                 </h2>
-                <div className="md:flex justify-center items-center">
-                    <div className="w-full mt-10 md:mt-0 md:w-1/2 sm:h-[480px]
+                <div className="flex flex-col lg:flex-row
+                items-center justify-between
+                px-4 lg:px-0
+                grow relative">
+                    <div className="w-full h-screen mt-10 md:mt-0 md:w-1/2 sm:h-[480px]
                          lg:flex items-center bg-indigo-100 px-4 lg:px-8 py-8
                          rounded-[10px] bg-opacity-40">
                         <form className="w-full pt-3">
