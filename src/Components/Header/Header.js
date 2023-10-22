@@ -51,7 +51,10 @@ const Header = () => {
                     {/*-------------LOGO-------------*/}
                     <div className="flex items-center gap-[10px]">
                         <div className="leading-[20px]">
-                            <h2 className="text-[25px] lg:text-[35px] md:text-[30px]
+                            <h2 id="logo" className="flex items-center
+                                sm:py-3 sm:px-3 rounded-[8px] sm:max-h-[40px]
+                                py-1 px-3 bg-hOneColor
+                                text-[25px] lg:text-[35px] md:text-[30px]
                                 text-headingText font-[600] max-h-[40px]
                                 drop-shadow">
                                 Fibre r Us
