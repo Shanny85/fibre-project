@@ -1,15 +1,9 @@
-import React, {useRef, useEffect, useState} from "react";
+import React, {useRef, useEffect} from "react";
 
-import Register from "../../Components/Forms/Register";
 
 const Header = () => {
-    const [showRegisterForm, setShowRegister] = useState(false);
     const headerRef = useRef(null);
     const menuRef = useRef(null);
-
-    const showRegisterFormHandler = () => {
-        setShowRegister(true)
-    }
 
 
     const stickyFunctionForHeader = () => {
@@ -106,10 +100,9 @@ const Header = () => {
                     {/*-------------MENU END-------------*/}
                     {/*-------------MENU START RIGHT-------------*/}
                     <div className="flex items-center gap-2">
-                        <a onClick={()=> showRegisterFormHandler()}
-                           href="#register">
-                            <button
-                                className="flex items-center gap-2
+                        <a onClick={handleClick}
+                           href="#contact"
+                           className="flex items-center gap-2
                                 text-newDarkAccent font-[600]
                                 sm:py-2 sm:px-4 rounded-[8px] sm:max-h-[40px]
                                 py-1 px-3 max-h-[30px]
@@ -119,8 +112,8 @@ const Header = () => {
                                 hover:font-[600] ease-in duration-300
                                 drop-shadow sm:p-1">
 
-                                Sign Up
-                            </button>
+
+                            Sign Up
                         </a>
                         <span onClick={menuSwitch}
                               className="cursor-pointer text-2xl
@@ -137,9 +130,6 @@ const Header = () => {
                     {/*-------------MENU START RIGHT END-------------*/}
                 </div>
             </div>
-            {
-                showRegisterForm && <Register setShowRegister={setShowRegister}/>
-            }
         </header>
     );
 }

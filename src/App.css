@@ -58,15 +58,6 @@ section {
   z-index: 99;
 }
 
-/*#logo h2{*/
-/*  text-shadow: 1px 2px 3px #ee4f91;*/
-/*}*/
-
-/*.sticky-head-section button {*/
-/*  box-shadow: 1px 2px 3px #000000;*/
-/*}*/
-
-
 @media only screen and (max-width: 768px) {
   .menu{
     width: 100%;
@@ -96,30 +87,17 @@ section {
   }
 }
 
-/*#register h2 {*/
-/*  text-shadow: 1px 2px 3px #000000;*/
-/*}*/
+/*===========================FOR ABOUT PAGE============================*/
+#about {
+  background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)),
+  url(./assets/images/hitech.jpg);
+  background-size: cover;
+}
+/*=====================================================================*/
 
-/*#login h2 {*/
-/*  text-shadow: 1px 2px 3px #000000;*/
-/*}*/
-
-/*#home h1 {*/
-/*  text-shadow: 1px 2px 3px #000000;*/
-/*}*/
-
-/*#below_hero h2 h4{*/
-/*  text-shadow: 1px 2px 3px #000000;*/
-/*}*/
-
-/*#about h2 {*/
-/*  text-shadow: 1px 2px 3px #000000;*/
-/*}*/
-
-/*#contact h2 {*/
-/*  text-shadow: 1px 2px 3px #000000;*/
-/*}*/
-
-/*#footer a {*/
-/*  text-shadow: 1px 2px 3px #000000;*/
-/*}*/
+/*===========================FOR CONTACT PAGE==========================*/
+#contact {
+  object-fit: cover;
+  top: 0;
+  left: 0;
+}

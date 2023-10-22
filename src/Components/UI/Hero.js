@@ -1,12 +1,24 @@
-import React from "react";
+import React, {useRef} from "react";
 import CountUp from "react-countup";
 
-
-
 const Hero = () => {
+    const headerRef = useRef(null);
+
+
+    const handleClick = e => {
+        e.preventDefault();
+        const targetAttribute = e.target.getAttribute('href');
+        const location = document.querySelector(targetAttribute).offsetTop;
+
+        window.scrollTo({
+            top: location - 80,
+            left: 0,
+        });
+    };
+
 
     return(
-        <section id="hero" className="pt-0">
+        <section ref={headerRef} id="hero" className="pt-0">
             <div className="container pt-14" id="home">
                 <div className="flex flex-col lg:flex-row
                 items-center justify-between
@@ -44,14 +56,13 @@ const Hero = () => {
                         </p>
                         <div data-aos="fade-up" data-aos-duration="1800" data-aos-delay="200"
                              className="mt-7 flex flex-col items-center lg:items-start gap-6">
-                            <a href="#home">
-                                <button
-                                    className="bg-hOneColor text-newDarkAccent
+                            <a onClick={handleClick}
+                                href="#contact"
+                                className="bg-hOneColor text-newDarkAccent
                                     font-[600] flex items-center gap-2
                                     hover:bg-newDarkAccent hover:text-headingText
                                     ease-in duration-300 py-2 px-4 rounded-[8px] mb-5">
-                                    Check my coverage
-                                </button>
+                                Check my coverage
                             </a>
                         </div>
                     </div>

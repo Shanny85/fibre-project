@@ -1,7 +1,6 @@
 import {useEffect} from "react";
 import Aos from "aos";
 import './App.css';
-
 import Header from "./Components/Header/Header";
 import Hero from "./Components/UI/Hero";
 import About from "./Components/UI/About";
